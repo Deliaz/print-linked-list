@@ -2,15 +2,31 @@
   "name": "print-linked-list",
   "version": "1.0.0",
   "description": "Pretty print for singly linked lists with loop detection",
+  "keywords": [
+    "linked list",
+    "singly linked",
+    "pretty print",
+    "loop detection"
+  ],
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha tests/*.test.js"
+    "test": "nyc mocha tests/*.test.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "author": "Deliaz",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Deliaz/print-linked-list.git"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "homepage": "https://github.com/Deliaz/print-linked-list",
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-sinon": "^2.8.1",
+    "coveralls": "^3.0.2",
     "eslint": "^5.4.0",
     "eslint-plugin-mocha": "^5.2.0",
     "mocha-sinon": "^2.1.0",
