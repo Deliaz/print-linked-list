@@ -3,6 +3,8 @@ Pretty print for singly linked lists with loop detection
 
 [![Build Status](https://travis-ci.org/Deliaz/print-linked-list.svg?branch=master)](https://travis-ci.org/Deliaz/print-linked-list)
 [![Coverage Status](https://coveralls.io/repos/github/Deliaz/print-linked-list/badge.svg?branch=master)](https://coveralls.io/github/Deliaz/print-linked-list?branch=master)
+![Npm package version](https://img.shields.io/npm/v/print-linked-list.svg)
+
 
 
 ```
