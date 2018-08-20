@@ -1,6 +1,9 @@
 # Print Linked List
 Pretty print for singly linked lists with loop detection
 
+[![Build Status](https://travis-ci.org/Deliaz/ctci.svg?branch=master)](https://travis-ci.org/Deliaz/ctci)
+
+
 ```
 A → B → C → D → E → [null]
 ```
@@ -17,6 +20,8 @@ By default it utilizes `console.log` with colored output to show a list structur
 #### Basic usage:
 
 ```javascript
+const printLinkedList = require('print-linked-list');
+
 const list = new LinkedList('A');
 list.append('B');
 list.append('C');
@@ -34,6 +39,8 @@ A → B → C → D → E → [null]
 #### It also has a loop detection. Example:
 
 ```javascript
+const printLinkedList = require('print-linked-list');
+
 const list = new LinkedList('A');
 list.append('B');
 list.append('C');
