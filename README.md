@@ -1,7 +1,7 @@
 # Print Linked List
 Pretty print for singly linked lists with loop detection
 
-[![Build Status](https://travis-ci.org/Deliaz/ctci.svg?branch=master)](https://travis-ci.org/Deliaz/ctci)
+[![Build Status](https://travis-ci.org/Deliaz/print-linked-list.svg?branch=master)](https://travis-ci.org/Deliaz/print-linked-list)
 
 
 ```
