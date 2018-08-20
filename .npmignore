@@ -1,2 +1,4 @@
 tests
 .idea
+.nyc_output
+.travis.yml
